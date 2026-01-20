@@ -441,3 +441,14 @@ input[type="tel" i],
 .share-links-title {
   margin: 0 0 0 15px;
 }
+
+.contact-form2 {
+  border: 1px solid #999999;
+  border-right: 1px solid #999999;
+  border-left-color: transparent;
+  border-radius: 0 16px 16px 0;
+}
+
+.contact-image img {
+  border-radius: 16px 0px 0px 16px;
+}
