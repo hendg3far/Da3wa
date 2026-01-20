@@ -1,0 +1,443 @@
+@font-face {
+  font-family: "Hacen Liner Screen St";
+  src: url("../fonts/ar/Hacen-Liner-Screen-St.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Hacen Liner Screen Bd";
+  src: url("../fonts/ar/Hacen-Liner-Screen-Bd.ttf") format("truetype");
+  font-display: swap;
+}
+
+:root {
+  --title-font: "Hacen Liner Screen Bd";
+  --body-font: "Hacen Liner Screen St";
+}
+
+html,
+body {
+  direction: rtl;
+  text-align: right;
+}
+
+.header-links li > i {
+  margin-left: 6px;
+  margin-right: 0;
+}
+
+.header-links li img,
+.header-links span img,
+.header-links p img,
+.header-links a img {
+  margin-left: 8px;
+  margin-right: 0;
+}
+
+.header-links li:not(:last-child) {
+  margin: 0 0 0 18px;
+}
+
+.popup-search-box form button {
+  right: auto;
+  left: 12px;
+}
+
+.main-menu ul li:has(.sub-menu) > a:after,
+.main-menu ul li:has(.mega-menu) > a:after,
+.main-menu ul li.menu-item-has-children > a:after {
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+.main-menu ul.sub-menu,
+.main-menu ul.mega-menu {
+  text-align: right;
+}
+
+.main-menu ul.sub-menu li.menu-item-has-children > a:after {
+  float: left;
+}
+
+.main-menu ul.sub-menu li a:before {
+  left: auto;
+  right: 10px;
+}
+
+.main-menu ul.sub-menu li a:hover:before {
+  left: auto;
+  right: 0;
+}
+
+.main-menu ul.sub-menu li a:hover {
+  padding-right: 23px;
+  padding-left: 0;
+}
+
+.main-menu > ul > li > a:before {
+  left: 0;
+  right: auto;
+}
+
+.main-menu > ul > li > a:hover:before {
+  left: auto;
+  right: 0;
+}
+
+.hero-style1 .th-btn i {
+  margin-left: 8px;
+  margin-right: 0;
+}
+
+.th-menu-wrapper {
+  right: 0;
+  left: auto;
+}
+
+.th-menu-wrapper.th-body-visible .th-menu-area {
+  right: 0;
+  left: auto;
+}
+
+.th-menu-wrapper .th-menu-toggle {
+  left: -16.5px;
+  right: auto;
+}
+
+.dropdown-menu {
+  text-align: right;
+}
+
+.dropdown-link img {
+  margin-left: 8px;
+  margin-right: 0;
+}
+
+.dropdown-toggle:after {
+  margin-right: 0.255em;
+  margin-left: 0;
+}
+
+.about-quran-area {
+  right: auto;
+  left: 0;
+  margin-right: 0;
+  margin-left: 20px;
+}
+
+.th-experience {
+  left: auto;
+  right: 0;
+}
+
+.img-box2 .discount-wrapp {
+  left: 20%;
+  right: auto;
+}
+
+@media (max-width: 1500px) {
+  .img-box2 .discount-wrapp {
+    left: 10%;
+    right: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .img-box2 .discount-wrapp {
+    left: 0;
+    right: auto;
+  }
+}
+
+.sub-title {
+  padding-right: 25px;
+  padding-left: 0;
+}
+
+.sub-title:before {
+  left: auto;
+  right: 0;
+}
+
+.donate-counter-area.style3 {
+  margin-left: 0;
+  margin-right: 40px;
+}
+
+.scale-x {
+  transform: scaleX(-1);
+}
+
+.donation-form .form-group.style2 .form-select,
+.donation-form .form-group.style2 .form-control.style1,
+.donation-form .form-group.style2 .form-control.style2 {
+  border-left: 1px solid #e4e4e5;
+  border-right: 0;
+}
+
+select,
+.form-control,
+.form-select,
+textarea,
+input {
+  padding: 0 25px 0 25px;
+  padding-left: 45px;
+  padding-right: 25px;
+}
+
+input[type="tel" i],
+[type="email"],
+[type="number"],
+[type="tel"],
+[type="url"] {
+  direction: rtl;
+}
+
+.nice-select:after {
+  right: auto;
+  left: 20px;
+}
+
+.nice-select .option {
+  text-align: right;
+  padding-right: 18px;
+  padding-left: 29px;
+}
+
+.surah-list {
+  margin-left: 0;
+  margin-right: 48px;
+}
+
+.surah-list .box-icon {
+  margin-right: -50px;
+  margin-left: 0;
+}
+
+.surah-list .box-content {
+  padding: 36px 20px 36px 0px;
+}
+
+.surah-list .action-btn i {
+  margin-left: 8px;
+  margin-right: 0;
+}
+
+.currency-menu .nice-select:after {
+  right: auto;
+  left: 20px;
+}
+
+.event-card .event-meta a i {
+  margin-left: 8px;
+  margin-right: 0;
+}
+
+.blog-meta span,
+.blog-meta a {
+  margin-right: 0;
+  margin-left: 32px;
+}
+
+.main-menu ul li:last-child {
+  margin-right: 15px !important;
+  margin-left: 0 !important;
+}
+
+.footer-widget.widget_meta a,
+.footer-widget.widget_pages a,
+.footer-widget.widget_archive a,
+.footer-widget.widget_categories a,
+.footer-widget.widget_nav_menu a {
+  padding: 0 25px 0 0;
+}
+
+.footer-widget.widget_meta a:before,
+.footer-widget.widget_pages a:before,
+.footer-widget.widget_archive a:before,
+.footer-widget.widget_categories a:before,
+.footer-widget.widget_nav_menu a:before {
+  left: auto;
+  right: 0;
+}
+
+.widget .th-social .title {
+  margin-right: 0;
+  margin-left: 16px;
+}
+
+.footer-links li {
+  padding-right: 0;
+  padding-left: 25px;
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.footer-links li:after {
+  right: auto;
+  left: 0;
+}
+
+.footer-links li:last-child {
+  margin-left: 0;
+  padding-left: 0;
+  padding-left: 25px;
+  margin-left: 10px;
+}
+
+.footer-widget .recent-post .media-img {
+  margin-right: 0;
+  margin-left: 20px;
+}
+
+.th-widget-about .footer-info {
+  padding: 0 35px 0 0;
+}
+
+.th-widget-about .footer-info i {
+  left: auto;
+  right: 0;
+}
+
+.th-mobile-menu {
+  text-align: right;
+}
+
+.th-mobile-menu ul li a {
+  padding-right: 18px;
+  padding-left: 0;
+}
+
+.th-mobile-menu ul li a:before {
+  left: auto;
+  right: 0;
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+.loading-text .letter {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+}
+
+.breadcumb-menu li {
+  margin-left: 3px;
+  margin-right: 0;
+  padding-left: 5px;
+  padding-right: 0;
+}
+
+.breadcumb-menu li:last-child {
+  padding-left: 0;
+  margin-left: 0;
+  margin-right: 3px;
+  padding-right: 3px;
+}
+
+.breadcumb-menu li:after {
+  margin-left: 0;
+  margin-right: 6px;
+}
+
+.breadcumb-menu a,
+.breadcumb-menu span {
+  margin-left: 0;
+  margin-right: 6px;
+}
+
+.breadcumb-menu li:after {
+  content: "\f104";
+}
+
+.widget_title:before {
+  left: auto;
+  right: 0;
+}
+
+.recent-post .media-img {
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+.recent-post .post-title {
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+.widget_nav_menu a,
+.widget_meta a,
+.widget_pages a,
+.widget_archive a,
+.widget_categories a,
+.wp-block-categories a {
+  padding: 0px 33px 24px 40px;
+}
+
+.widget_nav_menu li > span,
+.widget_meta li > span,
+.widget_pages li > span,
+.widget_archive li > span,
+.widget_categories li > span,
+.wp-block-categories li > span {
+  left: 0;
+  right: auto;
+}
+
+.widget_nav_menu a::before,
+.widget_meta a::before,
+.widget_pages a::before,
+.widget_archive a::before,
+.widget_categories a::before,
+.wp-block-categories a::before {
+  left: auto;
+  right: 0;
+}
+
+@media (min-width: 1300px) {
+  .page-single,
+  .blog-single,
+  .as-comments-wrap,
+  .as-comment-form {
+    margin-left: 16px;
+    margin-right: 0;
+  }
+}
+
+.th-comments-wrap .comment-avater {
+  margin-left: 24px;
+  margin-right: 0;
+}
+
+.th-comments-wrap .reply_and_edit {
+  right: auto;
+  left: 0;
+}
+
+[class*="col-"].form-group > i {
+  left: calc((var(--bs-gutter-x) / 2) + 25px);
+  right: auto;
+}
+
+.checklist ul {
+  text-align: right;
+}
+
+.checklist li {
+  padding-left: 0;
+  padding-right: 40px;
+}
+
+.checklist li:before {
+  left: auto;
+  right: 0;
+}
+
+.blog-meta span i,
+.blog-meta a i {
+  margin-right: 0;
+  margin-left: 6px;
+}
+
+.share-links-title {
+  margin: 0 0 0 15px;
+}
